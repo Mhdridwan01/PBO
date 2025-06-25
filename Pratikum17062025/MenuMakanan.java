@@ -7,7 +7,7 @@ package Pratikum17062025;
 
 /**
  *
- * @author ARKAN_AUVA
+ * @author MyBook Hype AMD
  */
 public class MenuMakanan extends javax.swing.JFrame {
 
