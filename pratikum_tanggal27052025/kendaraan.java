@@ -1,0 +1,31 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package pratikum_tanggal27052025;
+
+/**
+ *
+ * @author MyBook Hype AMD
+ */
+public abstract class kendaraan {
+     protected String merk;
+    protected int tahun;
+
+    public kendaraan(String merk, int tahun) {
+        this.merk = merk;
+        this.tahun = tahun;
+    }
+
+    public void nyalakan() {
+        System.out.println("Kendaraan dinyalakan.");
+    }
+
+    public void matikan() {
+        System.out.println("Kendaraan dimatikan.");
+    }
+
+    public abstract void info();
+    public abstract void periksaKondisi();
+    public abstract void servis();
+}
